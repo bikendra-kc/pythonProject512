@@ -6,7 +6,7 @@ b=float(input("enter the time haulted"))
 c=a*b
 speed=float(input("enter the speed of bus in miles"))
 distance=int(input("enter the ditance in  miles"))
-time= (distance//speed) *60
+time= (distance/speed) *60
 total=c+time
 print(f"time travelled by bus is",total)
 x=int(input("enter the mile you jog in fist mile"))
@@ -18,6 +18,6 @@ r=(1/z)*60
 jog=int(p+q+r)
 print(f"the time taken by jogging",jog)
 if (total > jog):
-    print(f"trvelling by bus is faster",total)
+    print(f"travelling by bus is faster",total)
 else:
     print(f"travelling by jogging is faster",jog)
