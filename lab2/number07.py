@@ -6,3 +6,8 @@ for i in range(a):
     c=b*c
     b-=1
 print(f'the factorial of the number {a} is {c}')
+#fractional
+x=float(input('enter the number:' ))
+y=int(x)
+z=x-y
+print(f'the fractional part of {x} is: ',z)
