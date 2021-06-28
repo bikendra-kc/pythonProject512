@@ -6,4 +6,4 @@ def palindrome(a):
         print(f'the string {a} is palindrome')
     else:
         print(f'the string {a} is not palindrome')
-palindrome('madam')
+palindrome('dad')
