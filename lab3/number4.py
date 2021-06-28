@@ -2,13 +2,10 @@
 For example, if limit is 20, it should return the sum of 3, 5, 6, 9, 10, 12, 15, 18, '''
 def limited(a):
     b=0
-    c=0
     for i in range (a):
-        if i%3==0:
+        if i%3==0 or i%5==0:
             b=i+b
-        elif i%5==0:
-            c=i+c
-    k=c+b
+    k=b
     return k
 
 k=limited(20)
