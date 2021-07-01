@@ -12,4 +12,4 @@ def armstrong(var):
         print(f'the number {var} is armstrong ')
     else:
         print(f'the number {var} is not armstrong')
-armstrong(110)
+armstrong(1634)

@@ -1,4 +1,24 @@
-'''Reverse the following tuple'''
-a=[1,2,3,4,5,6,'orange']
-b=str(a[len(a)::-1])
+s=[1,2,3,4]
+s.append(100)
+print(s)
+a=[1,2,3,4,5]
+a.insert(1,200)
+print(a)
+b=[1,2,3,4,5]
+b.remove(3)
 print(b)
+c=[1,2,3,4]
+del(c)
+d=[1,2,3,4,5]
+d.pop()
+print(d)
+e=[1,2,3,45,5]
+print(max(e))
+print(min(e))
+e.reverse()
+print(e)
+e.sort()
+print(e)
+f=[1,2,3,4,5]
+f.count(2)
+print(f)
