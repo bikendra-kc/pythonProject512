@@ -18,13 +18,13 @@ trash = "trash"
 while x =="y":
     game = input("Enter command : ").lower()
     if trash == game:
-        print(f"the car has already {game} ")
+        print(f"the car has already {game}ed ")
     elif game == "start":
         print("the car has started")
     elif game == "stop":
         print("the car has stopped")
     elif game == "help":
-        print("Press 'start' for starting car 'stop' for stoping car and 'quit' for exiting")
+        print(" Press 'start' for starting car \n Press 'stop' for stoping car  \n Press 'quit' for exiting")
     elif game == "quit":
         print("You are exiting")
         x = "n"
